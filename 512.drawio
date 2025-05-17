@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
   <diagram name="第 1 页" id="QSVuemXPU6q0oZoqGwlz">
-    <mxGraphModel>
+    <mxGraphModel dx="1060" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-19" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="580" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-1" value="抓取位姿估计模块" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-2" value="机械爪运动控制模块" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
+          <mxGeometry x="415" y="130" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-3" value="协同控制模块" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
+          <mxGeometry x="415" y="370" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-4" value="抓取规划模块" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
+          <mxGeometry x="90" y="130" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-5" value="" style="startArrow=none;endArrow=block;rounded=0;strokeColor=light-dark(#9370db, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" edge="1" parent="1" source="tCX8AgyhF4XD4t-tjSOV-3" target="tCX8AgyhF4XD4t-tjSOV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="412" y="320" as="sourcePoint" />
+            <mxPoint x="210" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-10" value="协调信息调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tCX8AgyhF4XD4t-tjSOV-5">
+          <mxGeometry x="0.1777" y="-2" relative="1" as="geometry">
+            <mxPoint x="19" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-6" value="" style="startArrow=none;endArrow=block;rounded=0;strokeColor=light-dark(#9370db, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" edge="1" parent="1" source="tCX8AgyhF4XD4t-tjSOV-3" target="tCX8AgyhF4XD4t-tjSOV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="627" y="496" as="sourcePoint" />
+            <mxPoint x="390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-8" value="" style="startArrow=none;endArrow=block;rounded=0;strokeColor=light-dark(#9370db, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" edge="1" parent="1" source="tCX8AgyhF4XD4t-tjSOV-3" target="tCX8AgyhF4XD4t-tjSOV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477" y="656" as="sourcePoint" />
+            <mxPoint x="240" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-9" value="" style="startArrow=none;endArrow=block;rounded=0;strokeColor=light-dark(#9370db, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" edge="1" parent="1" source="tCX8AgyhF4XD4t-tjSOV-1" target="tCX8AgyhF4XD4t-tjSOV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="507" y="686" as="sourcePoint" />
+            <mxPoint x="270" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-11" value="协调信息调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="270" as="geometry">
+            <mxPoint x="125" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-13" value="" style="startArrow=none;endArrow=block;rounded=0;strokeColor=light-dark(#9370db, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" edge="1" parent="1" source="tCX8AgyhF4XD4t-tjSOV-4" target="tCX8AgyhF4XD4t-tjSOV-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433" y="440" as="sourcePoint" />
+            <mxPoint x="360" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-14" value="" style="startArrow=none;endArrow=block;rounded=0;strokeColor=light-dark(#9370db, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=18;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" edge="1" parent="1" source="tCX8AgyhF4XD4t-tjSOV-4" target="tCX8AgyhF4XD4t-tjSOV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443" y="200" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-15" value="6D位姿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="260" as="geometry">
+            <mxPoint x="3" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-16" value="协调信息调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="290" y="270" as="geometry">
+            <mxPoint x="125" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-17" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;6D位姿&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tCX8AgyhF4XD4t-tjSOV-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;自适应协同抓取系统&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="440" width="165" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

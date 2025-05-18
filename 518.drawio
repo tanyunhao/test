@@ -13,11 +13,17 @@
         <mxCell id="oWTD0FEcT8lbK7-aN0bz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWTD0FEcT8lbK7-aN0bz-2" target="oWTD0FEcT8lbK7-aN0bz-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oWTD0FEcT8lbK7-aN0bz-2" value="简单姿态变化" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
-          <mxGeometry x="220" y="340" width="102" height="54" as="geometry" />
+        <mxCell id="oWTD0FEcT8lbK7-aN0bz-2" value="调整接触面" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
+          <mxGeometry x="208" y="340" width="102" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="oWTD0FEcT8lbK7-aN0bz-4" value="拼装" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
-          <mxGeometry x="363" y="340" width="102" height="54" as="geometry" />
+        <mxCell id="oWTD0FEcT8lbK7-aN0bz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oWTD0FEcT8lbK7-aN0bz-4" target="oWTD0FEcT8lbK7-aN0bz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oWTD0FEcT8lbK7-aN0bz-4" value="简单位姿调整" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
+          <mxGeometry x="339" y="340" width="102" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="oWTD0FEcT8lbK7-aN0bz-6" value="拼装" style="whiteSpace=wrap;strokeWidth=2;strokeColor=light-dark(#9370db, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=light-dark(#ececff, #392f3f);" vertex="1" parent="1">
+          <mxGeometry x="470" y="340" width="102" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
